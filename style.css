@@ -115,5 +115,20 @@ html,body{
         margin-top: 55px;
     }
 }
+@media(min-width: 481px) and (max-width: 768px){
+    #main{
+        flex-direction: row;
+    }
+    #main #left{
+        width: 50%;
+    }
+    #main #right{
+        width: 50%;
+    }
+    #mid-text{
+        margin-top: 35px;
+    }
+    
+}
 
 
